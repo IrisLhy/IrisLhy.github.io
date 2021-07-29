@@ -7,13 +7,68 @@
 
 
 <body>
-<h2>Demos from &quot;Voice Reconstruction from Silent Speech with a Sequence-to-Sequence Model; </h2>
-<p>Authors: Huiyan~Li,
-        Haohong~Lin,
-        You~Wang,
-        Hengyang~Wang,
-        Ming~Zhang,
-        Han~Gao,
-        Qing~Ai,
-        and Guang~Li</p>
+<h2>Demos from &quot;Voice Reconstruction from Silent Speech with a Sequence-to-Sequence Model</h2>
+<p>Authors: Huiyan Li,
+        Haohong Lin,
+        You Wang,
+        Hengyang Wang,
+        Ming Zhang,
+        Han Gao,
+        Qing Ai,
+        and Guang Li</p>
 <p>Abstract: Silent Speech Decoding (SSD) based on Surface electromyography (sEMG) has become a prevalent task in recent years. Though revolutions have been proposed to decode sEMG to audio successfully, some problems still remain. In this paper, we propose an optimized sequence-to-sequence (Seq2Seq) approach to synthesize voice from subvocal sEMG. Both subvocal and vocal sEMG are collected and preprocessed to provide data information. Then, we extract durations from the alignment between subvocal and vocal signals to regulate the subvocal sEMG following audio length. Besides, we use phoneme classification and vocal sEMG reconstruction modules to improve the model performance. Finally, experiments on a Mandarin speaker dataset, which consists of 6.49 hours of data, demonstrate that the proposed model improves the mapping accuracy and voice quality of reconstructed voice.</p><hr />
+
+
+<h3>Reconstruction voices</h3>
+<table width="200" border="1">
+  <tr>
+    <td>Number of speakers used</td>
+    <td>TaLNet w/o transfer</td>
+    <td>TaLNet</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td><audio controls>
+    	<source src="2_varying_the_number_of_speakers/TaLNet_without_transfer_learning/1/70ms-004_xaud-gen-feats_gen.wav" type="audio/wav">
+   	</audio></td>
+    <td><audio controls>
+    	<source src="2_varying_the_number_of_speakers/TaLNet/1/70ms-004_xaud-gen-feats_gen.wav" type="audio/wav">
+   	</audio></td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td><audio controls>
+    	<source src="2_varying_the_number_of_speakers/TaLNet_without_transfer_learning/3/70ms-004_xaud-gen-feats_gen.wav" type="audio/wav">
+   	</audio></td>
+    <td><audio controls>
+    	<source src="2_varying_the_number_of_speakers/TaLNet/3/70ms-004_xaud-gen-feats_gen.wav" type="audio/wav">
+   	</audio></td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td><audio controls>
+    	<source src="2_varying_the_number_of_speakers/TaLNet_without_transfer_learning/9/70ms-004_xaud-gen-feats_gen.wav" type="audio/wav">
+   	</audio></td>
+    <td><audio controls>
+    	<source src="2_varying_the_number_of_speakers/TaLNet/9/70ms-004_xaud-gen-feats_gen.wav" type="audio/wav">
+   	</audio></td>
+  </tr>
+  <tr>
+    <td>25</td>
+    <td><audio controls>
+    	<source src="2_varying_the_number_of_speakers/TaLNet_without_transfer_learning/25/70ms-004_xaud-gen-feats_gen.wav" type="audio/wav">
+   	</audio></td>
+    <td><audio controls>
+    	<source src="2_varying_the_number_of_speakers/TaLNet/25/70ms-004_xaud-gen-feats_gen.wav" type="audio/wav">
+   	</audio></td>
+  </tr>
+  <tr>
+    <td>75</td>
+    <td><audio controls>
+    	<source src="2_varying_the_number_of_speakers/TaLNet_without_transfer_learning/75/70ms-004_xaud-gen-feats_gen.wav" type="audio/wav">
+   	</audio></td>
+    <td><audio controls>
+    	<source src="2_varying_the_number_of_speakers/TaLNet/75/70ms-004_xaud-gen-feats_gen.wav" type="audio/wav">
+   	</audio></td>
+  </tr>
+</table>
